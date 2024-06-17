@@ -32,12 +32,7 @@
 
         <ul id="global_menu_items">
             <div>
-                <i class="fa fa-close" id="global_menu_close_button"></i>
-                <li><a href="index.html"><i class="fa fa-home"></i> About</a></li>
-                <li><a href="resume.html"><i class="fas fa-file-alt"></i> Resume</a></li>
-                <!-- <li><a href="blogs.html"><i class="fas fa-pen-nib"></i> Blogs</a></li> -->
-                <li><a href="services.html"><i class="fas fa-cog"></i> Services</a></li>
-                <li><a href="contact.html"><i class="fas fa-phone-square"></i> Contact</a></li>
+                <?php include "inc/mainmenue.php";?>
             </div>
         </ul>
 
@@ -72,12 +67,7 @@
 
             <!-- Sidebar Navigation -->
             <ul class="sidebar_navigation" id="sidebar_navigation">
-                <li><a href="index.html">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <!-- <li><a href="blogs.html">Blogs</a></li> -->
-                <li><a href="services.html" class="active">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-
+                <?php include "inc/sidebarc.php";?>
             </ul>
 
         </div>
