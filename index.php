@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php
+    $fname_lname = "Daniils Onufrijuks";
+?>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +21,7 @@
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Daniils Onufrijuks</title>
+    <title><?php echo $fname_lname; ?></title>
 </head>
 
 <body>
@@ -26,7 +30,7 @@
 
         <!-- Global Menu -->
         <div id="global_menu_button_container">
-            <p class="site_title">Daniils Onufrijuks</p>
+            <p class="site_title"><?php echo $fname_lname; ?></p>
             <i class="fa fa-bars" id="global_menu_button"></i>
         </div>
 
@@ -58,7 +62,7 @@
             <!-- sidebar Content -->
             <div class="sidebar_content">
                 <!-- Long name can be applied so easily -->
-                <h1>Daniils Onufrijuks</h1>
+                <h1><?php echo $fname_lname; ?></h1>
                 <p>PROGRAMMER</p>
                 <!-- Social Medias -->
                 <div class="social_media">
